@@ -1,0 +1,22 @@
+Package: GenIntersect
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.0.9000
+Authors@R: 
+    person("Xiaorui", "Yuan", , "yxr191202@icloud.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-7647-4777"))
+Description: The GenIntersect package is designed to provide researchers and data analysts in genomics with a robust tool for calculating the intersections of gene sets across multiple datasets. It handles comparisons of two or more datasets, allowing users to identify common genes shared among various combinations of these datasets. The package outputs a detailed data frame that lists each dataset combination alongside the intersected gene names and the count of genes in each intersection. This functionality aids in the analysis of gene expression data, enabling the exploration of shared biological functions and pathways across different conditions or experiments, which is crucial for understanding gene regulation and interaction networks in biological studies..
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+Imports:
+    dplyr,
+    tidyr,
+    tibble,
+    magrittr,
+    purrr,
+    stringr,
+    readr,
+    ggplot2,
+    ggpubr
