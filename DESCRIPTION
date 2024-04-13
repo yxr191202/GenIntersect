@@ -20,3 +20,5 @@ Imports:
     readr,
     ggplot2,
     ggpubr
+URL: https://github.com/yxr191202/GenIntersect
+BugReports: https://github.com/yxr191202/GenIntersect/issues
