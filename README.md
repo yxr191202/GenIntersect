@@ -1,20 +1,23 @@
-Calculate Intersections of Gene Sets
-Description
-Calculates intersections of gene sets from multiple datasets. Outputs a data frame listing each combination of datasets.
+## Description
 
-Usage
+计算多个数据集中基因集的交集。输出列出每个数据集组合的数据框。
+
+## Usage
+
 calculate_combination_intersects(list_of_datasets, names_of_datasets)
-Arguments
-list_of_datasets	
-List of data frames with gene names.
 
-names_of_datasets	
-Names corresponding to datasets.
+## Arguments
 
-Value
+| 列表                                | 描述                             |
+| ----------------------------------- | -------------------------------- |
+| list_of_datasets                    | names_of_datasets                |
+| List of data frames with gene names | Names corresponding to datasets. |
+
+## Value
+
 Data frame of dataset combinations and intersection genes.
 
-Examples
+## Examples
 
 ```R
 df1 <- data.frame(Gene = c("Gene1", "Gene2", "Gene3", "Gene4"))
@@ -26,4 +29,5 @@ names_of_datasets <- c("Dataset1", "Dataset2","Dataset3", "Dataset4")
 results <- calculate_combination_intersects(list_of_datasets, names_of_datasets)
 print(results)
 ```
+
 
